@@ -1,14 +1,16 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import ThemeContext from './ThemeContext';
 
 function HeaderButton() {
-  const ThemeContext = React.useContext(ThemeContext);
+  const themeContext = React.useContext(ThemeContext);
 
   return (
     <div>
-      <button style={buttonThemes.black}>Press me</button>
+      
+      <button style={ themeContext }>Press me</button>    
     </div>
   );
 }
 
 export default HeaderButton;
+
