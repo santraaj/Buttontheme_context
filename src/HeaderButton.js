@@ -6,11 +6,9 @@ function HeaderButton() {
 
   return (
     <div>
-      
       <button style={ themeContext }>Press me</button>    
     </div>
   );
 }
 
 export default HeaderButton;
-
